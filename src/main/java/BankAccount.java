@@ -32,7 +32,56 @@ public class BankAccount {
          */
     }
 
-    /*
-     * Implement getters and setters as appropriate for private variables.
+    /**
+     * set the account number.
+     * @param setAccountNumber the account number to be set.
      */
+    public void setAccountNumber(final int setAccountNumber) {
+        this.accountNumber = setAccountNumber;
+    }
+
+    /**
+     *
+     * @param setAccountType
+     */
+    public void setAccountType(final BankAccountType setAccountType) {
+        this.accountType = setAccountType;
+    }
+
+    /**
+     *
+     * @param setAccountNumber
+     */
+    public void setAccountBalance(final int setAccountNumber) {
+        this.accountBalance = setAccountNumber;
+    }
+
+    /**
+     *
+     * @param setAccountNumber
+     */
+    public void setOwnerName(final String setAccountNumber) {
+        this.ownerName = setAccountNumber;
+    }
+
+    /**
+     *
+     * @param setInterestRate
+     */
+    public void setInterestRate(final int setInterestRate) {
+        this.interestRate = setInterestRate;
+    }
+    /**
+     * getter to return the account number.
+     * @return the account number.
+     */
+    public int getAccountNumber() {
+        return this.accountNumber;
+    }
+    public String getOwnerName() {
+        return this.ownerName;
+    }
+    public double getInterestrRate() {
+        return this.interestRate;
+    }
 }
